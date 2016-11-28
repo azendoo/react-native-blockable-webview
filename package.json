@@ -11,16 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rseemann/react-native-blockable-webview.git"
+    "url": "git+https://github.com/Azendoo/react-native-blockable-webview.git"
   },
   "keywords": [
     "react-native",
     "webview"
   ],
   "author": "Rafael Seemann",
+  "contributors": {
+    "Azendoo": [
+      "Liroo"
+    ]
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rseemann/react-native-blockable-webview/issues"
+    "url": "https://github.com/Azendoo/react-native-blockable-webview/issues"
   },
-  "homepage": "https://github.com/rseemann/react-native-blockable-webview#readme"
+  "homepage": "https://github.com/Azendoo/react-native-blockable-webview#readme"
 }
