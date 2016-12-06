@@ -12,6 +12,7 @@
 
 import React, { PropTypes } from 'react';
 import {
+  findNodeHandle,
   ActivityIndicator,
   EdgeInsetsPropType,
   DeviceEventEmitter,
@@ -21,7 +22,6 @@ import {
   View,
   requireNativeComponent,
 } from 'react-native';
-import ReactNative from 'react/lib/ReactNative';
 
 import keyMirror from 'keymirror';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
@@ -287,7 +287,7 @@ class WebView extends React.Component {
   };
 
   getWebViewHandle = () => {
-    return ReactNative.findNodeHandle(this.refs[RCT_WEBVIEW_REF]);
+    return findNodeHandle(this.refs[RCT_WEBVIEW_REF]);
   };
 
   onLoadingStart = (event) => {
