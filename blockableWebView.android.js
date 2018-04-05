@@ -61,7 +61,6 @@ class WebView extends React.Component {
     onNavigationStateChange: PropTypes.func,
     onContentSizeChange: PropTypes.func,
     startInLoadingState: PropTypes.bool, // force WebView to show loadingView on first load
-    style: View.propTypes.style,
 
     /**
      * Loads static html or a uri (with optional headers) in the WebView.
